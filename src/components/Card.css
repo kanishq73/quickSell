@@ -1,0 +1,86 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px); /* Add subtle movement on hover */
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-id {
+  font-weight: bold;
+  font-size: 14px;
+  color: grey;
+}
+
+.temp{
+  color: grey;
+}
+
+.card-status-icon img {
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.card-body {
+  display: flex;
+align-items: center;justify-content: center;
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  line-height: 1.4;
+}
+
+.bottom {
+  border : solid rgba(159, 159, 159, 0.348) 0.2px;
+  border-radius :  4px;
+  padding: 1px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Align tag and dot to the left */
+  margin-top: 10px; /* Add spacing above */
+  width: 150px;
+}
+
+.filled {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  margin-right: 8px; /* Spacing between filled dot and tag */
+}
+
+.card-footer .tag {
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  padding: 4px 8px; /* Adjust padding for better readability */
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.tag {
+  font-size: 13px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: #d0d6e1;
+  color: #333;
+  margin-left: 8px;
+}

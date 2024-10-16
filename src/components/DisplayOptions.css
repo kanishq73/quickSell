@@ -1,0 +1,51 @@
+/* Container for the button and dropdown */
+/* .display-options-container {
+    position: absolute; /* Fixed position to keep it in the top-left corner */
+  /* } */ 
+  
+  /* Button styling */
+  .display-icon {
+    width: 20px; /* Set a smaller width for the icon */
+    height: 20px; /* Set a smaller height for the icon */
+    margin-right: 4px;
+  }
+  .dropdown-toggle-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for a pop-out effect */
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    position: absolute;
+    top: 45px; /* Position dropdown just below the button */
+    /* left: 0; */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Dropdown options (select and label) styling */
+  .dropdown-menu label {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-menu select {
+    margin-left: 8px;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }

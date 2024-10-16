@@ -1,0 +1,43 @@
+.topbar {
+    display: flex;
+    align-items: center; 
+    padding: 10px 38px; /* Padding around the bar */
+    background-color: #f8f9fa; /* Light background for the top bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    position: fixed; /* Keep the top bar fixed at the top */
+    width: 100%; /* Full width of the page */
+    top: 0; /* Position at the top */
+    left: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+
+
+  
+  .topbar-title {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Title font size */
+  }
+  
+  .display-button-container {
+    display: flex;
+    justify-content: space-between; /* Space between title and button */
+    align-items: center; /* Center the display button */
+    margin-right: 10px;
+  }
+  
+  .display-button {
+    display: flex;
+    align-items: center; /* Center icon and text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 12px; /* Padding for the button */
+    cursor: pointer; /* Change cursor on hover */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size */
+    gap: 8px; /* Space between icon and text */
+  }
+  
+  .display-button:hover {
+    background-color: darkgrey; /* Darker grey on hover */
+  }
+  
